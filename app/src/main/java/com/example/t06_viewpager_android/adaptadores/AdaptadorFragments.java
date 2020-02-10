@@ -20,11 +20,11 @@ public class AdaptadorFragments extends FragmentPagerAdapter {
     @NonNull
     @Override
     public Fragment getItem(int position) {
-        return null;
+        return listaFragments.get(position);
     }
 
     @Override
     public int getCount() {
-        return 0;
+        return listaFragments.size();
     }
 }

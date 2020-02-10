@@ -13,6 +13,13 @@
         android:background="@android:color/holo_red_light"
         android:id="@+id/toolbar"/>
 
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/tabLayout"
+        />
+
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
